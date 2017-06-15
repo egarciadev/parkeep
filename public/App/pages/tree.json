@@ -1,0 +1,183 @@
+[
+    {
+        "id": "1",
+        "parent": "#",
+        "text": "Administracion de Pedidos",
+        "url": "pedidos",
+        "visible" :true
+    },
+    {
+        "id": "13",
+        "parent": "1",
+        "text": "Generar Pedidos",
+        "url": "PedidosClientes",
+        "visible" :true
+    },
+    {
+        "id": "5",
+        "parent": "1",
+        "text": "Asignacion Pedidos",
+        "url": "AsignarPedidos",
+        "parentname": "pedidos",
+        "icon": "glyphicon glyphicon-file",
+        "state": "AsignarPedidos",
+        "visible" :true
+    },
+    {
+        "id": "6",
+        "parent": "1",
+        "text": "Auditoria Pedidos",
+        "url": "AuditarPedidos",
+        "parentname": "pedidos",
+        "icon": "glyphicon glyphicon-file",
+        "state": "AuditarPedidos",
+        "visible" :true
+    },
+    {
+        "id": "7",
+        "parent": "#",
+        "text": "Parametrizacion",
+        "url": "parametrizacion",
+        "visible" :true
+    },
+    {
+        "id": "8",
+        "parent": "7",
+        "text": "Parametrizacion de Usuarios",
+        "url": "OperariosBodega",
+        "parentname": "parametrizacion",
+        "visible" :true
+    },
+    {
+        "id": "11",
+        "parent": "8",
+        "text": "Operarios de Bodega",
+        "url": "OperariosBodega",
+        "parentname": "parametrizacion",
+        "icon": "glyphicon glyphicon-file",
+        "state": "OperariosBodega",
+        "visible" :true
+    },
+    {
+        "id": "12",
+        "parent": "#",
+        "text": "Kardex",
+        "url": "kardex",
+        "state": "listarproductos",
+        "visible" :true
+    },
+    {
+        "id": "14",
+        "parent": "13",
+        "text": "Pedidos Clientes",
+        "url": "PedidosClientes",
+        "icon": "glyphicon glyphicon-list-alt",
+        "parentname": "pedidos",
+        "state": "PedidosClientes",
+        "visible" :true
+    },
+    {
+        "id": "15",
+        "parent": "13",
+        "text": "Pedidos Farmacias",
+        "url": "VerPedidosFarmacias",
+        "icon": "glyphicon glyphicon-list-alt",
+        "parentname": "pedidos",
+        "state": "VerPedidosFarmacias",
+        "visible" :true
+    },
+    {
+        "id": "16",
+        "parent": "#",
+        "text": "Compras",
+        "url": "ordenescompra",
+        "visible" :true
+    },
+    {
+        "id": "17",
+        "parent": "16",
+        "text": "Gestionar Orden de Compra",
+        "url": "ListarOrdenes",
+        "icon": "glyphicon glyphicon-list-alt",
+        "parentname": "ordenescompra",
+        "state": "ListarOrdenes",
+        "visible" :true
+    },
+    {
+        "id": "18",
+        "parent": "7",
+        "text": "Administracion Modulos",
+        "url": "AdministracionModulos",
+        "parentname": "parametrizacion",
+        "visible" :true
+    },
+    {
+        "id": "19",
+        "parent": "7",
+        "text": "Administracion Perfiles",
+        "url": "AdministracionRoles",
+        "parentname": "parametrizacion",
+        "visible" :true
+    },
+    {
+        "id": "20",
+        "parent": "18",
+        "text": "Modulos",
+        "url": "AdministracionModulos",
+        "parentname": "parametrizacion",
+        "icon": "glyphicon glyphicon-file",
+        "state": "AdministracionModulos",
+        "visible" :true
+    },
+    {
+        "id": "21",
+        "parent": "18",
+        "text": "Modulos Empresas",
+        "url": "ModulosEmpresas",
+        "parentname": "parametrizacion",
+        "icon": "glyphicon glyphicon-file",
+        "state": "ModulosEmpresas",
+        "visible" :true
+    },
+
+    {
+        "id": "24",
+        "parent": "19",
+        "text": "Roles",
+        "url": "ListarRoles",
+        "parentname": "parametrizacion",
+        "icon": "glyphicon glyphicon-file",
+        "state": "ListarRoles",
+        "visible" :true
+    },
+    {
+        "id": "25",
+        "parent": "19",
+        "text": "Usuarios",
+        "url": "ListarUsuarios",
+        "parentname": "parametrizacion",
+        "icon": "glyphicon glyphicon-file",
+        "state": "ListarUsuarios",
+        "visible" :true
+    },
+    {
+        "id": "26",
+        "parent": "#",
+        "text": "Planillas Despacho",
+        "url": "planillasdespacho",
+        "visible" :true
+    },
+    {
+        "id": "27",
+        "parent": "26",
+        "text": "Gestionar Planillas",
+        "url": "GestionarPlanillas",
+        "parentname": "planillasdespacho",
+        "icon": "glyphicon glyphicon-file",
+        "state": "GestionarPlanillas",
+        "visible" :true
+    }
+    
+    
+    
+]

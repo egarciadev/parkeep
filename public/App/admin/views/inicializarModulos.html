@@ -1,0 +1,21 @@
+<div ng-if='totalModulos == 0'>
+
+    <div class="alert alert-warning" role="alert">
+        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+        <span class="sr-only">Error:</span>
+        No se encontraron modulos disponibles en el sistema.
+    </div>
+    <button class="btn btn-default" ng-click="onInicializarAplicacion()"><i class="glyphicon glyphicon-floppy-open"></i> Configurar Modoulos Iniciales</button>
+
+</div>
+
+<div ng-if='totalModulos > 0'>
+
+    <div class="alert alert-success" role="alert">
+        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+        <span class="sr-only">Error:</span>
+        La aplicación cuenta con modulos creados.
+    </div>
+    <button class="btn btn-default" disabled><i class="glyphicon glyphicon-floppy-open"></i> Configurar Modulos Iniciales</button>
+
+</div>

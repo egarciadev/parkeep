@@ -1,0 +1,31 @@
+
+<div class="container">
+   
+	<section>				
+		<div class="contenedorForm" >
+			<!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+			<a class="hiddenanchor" id="toregister"></a>
+			<a class="hiddenanchor" id="tologin"></a>
+			<div id="wrapper">
+				<div id="login" class="animate form">
+					<form id="loginform" class="form-horizontal" name="loginform" role="form">
+						<div class="contenedorLoginInpunts input-group">
+							
+							<input id="login-username" name="login-username" type="text" popover-placement="top" popover="Requerido" popover-trigger="focus" required class="form-control"  placeholder="Usuario"  ng-model="$parent.usuario"  >                                        
+							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+						</div>
+						<div class="input-group contenedorLoginInpunts">
+							<input id="login-password" popover-placement="top" popover="Requerido" popover-trigger="focus" type="password" required class="form-control"  placeholder="Contraseña" ng-model="$parent.clave">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+						</div> 
+
+						   <button type="submit" class="btn btn-primary btnIniciar" name="btnentrar" ng-disabled="loginform.$invalid" ng-click="autenticar($parent.usuario, $parent.clave)">
+								Iniciar sesión <i class="glyphicon glyphicon-log-in"></i>
+						   </button>
+					</form>
+				</div>
+
+			</div>
+		</div>  
+	</section>
+</div>

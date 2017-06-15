@@ -34,7 +34,7 @@ function minificarModulo(modulos, callback){
 var modulos;
 //Se valida si se especifico los modulos en la consola, de lo contrario se listan de la carpeta raiz de la aplicacion del cliente
 if(process.argv.indexOf("modulos") === -1 ){
-    //Se obtienen los modulos de la carpeta dusoft_duana
+    //Se obtienen los modulos de la raiz
     modulos = listarDirectorios(rootPath);
 } else {
     //Se obtienen los modulos especificados por consola
